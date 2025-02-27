@@ -60,6 +60,7 @@ li {
 
 .flex {
 display: flex;
+flex-direction: column;
 }
 .flex-1 {
     flex: 1;
@@ -143,7 +144,8 @@ nav {
 
 .about-me__info {
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+   
 }
 .about-me__info--container {
     display: flex;
@@ -152,6 +154,8 @@ nav {
     max-width: 600px;
     margin: 0 auto;
     text-align:center;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-me__picture--mask {
